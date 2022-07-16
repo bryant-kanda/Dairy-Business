@@ -27,7 +27,7 @@ function incomeOverTime(sellingPrice,time,totals){
 let incomePerWeek=totals*sellingPrice*parseInt(time)
 let incomePerYear=totals*sellingPrice*364
 let incomeHolder=document.getElementById("income")
-incomeHolder.innerHTML+=`<p> Total weekly income:${incomePerWeek}</p><br>
-<p> Total yearly income:${incomePerYear}</p><br>`
+incomeHolder.innerHTML+=`<p style="color:red;">Total weekly income:${incomePerWeek}</p><br>
+<p style="color:green;">Total yearly income:${incomePerYear}</p><br>`
 }
 
