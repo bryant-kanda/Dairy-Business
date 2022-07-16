@@ -7,6 +7,9 @@ form{
     margin: 8px 0;
     box-sizing: border-box  
 }
-button{color: orange;}
-p{a: hover:
-}
+button{ color: #FAFAFA;
+    padding: 9px 25px;
+    background-color: #2549D3;
+    border: none;
+    border-bottom: 25px;
+    line-height: 10px;}
