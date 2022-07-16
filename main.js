@@ -1,10 +1,10 @@
 const btn=document.getElementById("Submit")
 btn.addEventListener("click",(event)=>{
     event.preventDefault()
-let shedA=document.getElementById("inputA").value
-let inputB=document.getElementById("inputB").value
-let inputC=document.getElementById("inputC").value
-let inputD=document.getElementById("inputD").value
+let shedA=document.getElementById("shedA").value
+let inputB=document.getElementById("shedB").value
+let inputC=document.getElementById("shedC").value
+let inputD=document.getElementById("shedD").value
 let days=document.getElementById("days").value
 let totals=totalProduction(inputA,inputB,inputC,inputD);
 incomeOverTime (45,days,totals)
