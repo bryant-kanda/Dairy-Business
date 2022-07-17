@@ -13,4 +13,8 @@ button{ color: #FAFAFA;
     border: none;
     border-bottom: 25px;
     line-height: 10px;}
-p{}
+p{
+    font-size: 24px;
+  font-family: inherit;
+  padding: 10px;
+}
