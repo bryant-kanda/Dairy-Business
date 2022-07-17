@@ -9,6 +9,7 @@ body {
     margin: 2rem auto;
     border: 2px solid gold;
     padding: 2rem;
+    border-radius: 5px;
 }
 label{display: block;
 width: 100%;
@@ -23,15 +24,7 @@ button{border: 0;
     text-transform: uppercase;
     cursor: pointer;
 }
-/* button{ color: #FAFAFA;
-    padding: 9px 25px;
-    background-color: #2549D3;
-    border: none;
-    border-bottom: 25px;
-    line-height: 10px;} */
 p{
     font-size: 24px;
-     padding: 10px;
-     
-
+     padding: 10px;    
 }
