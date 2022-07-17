@@ -15,7 +15,8 @@ label{display: block;
 width: 100%;
 padding: 1rem 0 .25rem;
 text-transform: uppercase;
-font-size: 14px;}
+font-size: 14px;
+border-radius: 5px;}
 button{border: 0;
         background-color: purple;
         padding: 1rem;
@@ -23,8 +24,12 @@ button{border: 0;
         width: auto;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: 5px;
 }
 p{
     font-size: 24px;
-     padding: 10px;    
+     padding: 10px; 
+     font-weight: bolder;
+     word-spacing: normal;
+     page-break-inside: auto;   
 }
