@@ -17,7 +17,9 @@ button{border: 0;
         padding: 1rem;
         margin: 1rem;
         width: auto;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+    cursor: pointer;
+}
 /* button{ color: #FAFAFA;
     padding: 9px 25px;
     background-color: #2549D3;
