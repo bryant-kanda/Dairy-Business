@@ -10,13 +10,20 @@ body {
     border: 2px solid gold;
     padding: 2rem;
 }
-label{display: block;}
-button{ color: #FAFAFA;
+label{display: block;
+width: 100%;}
+button{border: 0;
+        background-color: purple;
+        padding: 1rem;
+        margin: 1rem;
+        width: auto;
+    text-transform: uppercase;}
+/* button{ color: #FAFAFA;
     padding: 9px 25px;
     background-color: #2549D3;
     border: none;
     border-bottom: 25px;
-    line-height: 10px;}
+    line-height: 10px;} */
 p{
     font-size: 24px;
      padding: 10px;
