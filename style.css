@@ -1,6 +1,6 @@
 
 body {
-    font-family: Verdana, Georgia, sans-serif;
+    font-family: sans-serif;
     background-color: #9c9f84;
     margin: 0px;
     font-size: 14px;
@@ -11,7 +11,10 @@ body {
     padding: 2rem;
 }
 label{display: block;
-width: 100%;}
+width: 100%;
+padding: 1rem 0 .25rem;
+text-transform: uppercase;
+font-size: 14px;}
 button{border: 0;
         background-color: purple;
         padding: 1rem;
