@@ -1,11 +1,12 @@
 
 body {
     font-family: "Helvetica", Sans-Serif;
+    background-color: #9c9f84;
      }
 form{
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box  
+    box-sizing: border-box;  
 }
 button{ color: #FAFAFA;
     padding: 9px 25px;
@@ -15,6 +16,5 @@ button{ color: #FAFAFA;
     line-height: 10px;}
 p{
     font-size: 24px;
-  font-family: inherit;
-  padding: 10px;
+     padding: 10px;
 }

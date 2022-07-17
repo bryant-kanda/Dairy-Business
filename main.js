@@ -10,6 +10,7 @@ let totals=totalProduction(inputA,inputB,inputC,inputD);
 incomeOverTime (45,days,totals)
 console.log(inputA)
 })
+
 function totalProduction(A,B,C,D){
 let production=`total production in shed A ${A}litres\n
 total production in shed B ${B}litres\n
@@ -20,9 +21,10 @@ console.log(production);
 let holder=document.getElementById("produce")
 holder.textContent+=production
 let totalHolder=document.querySelector("#total")
-totalHolder.innerHTML+=`<p style="color:blue;">total production in all sheds is ${totalProduction}<br></p>`
+totalHolder.innerHTML+=`<p style="color:blue;">Total production in all sheds is ${totalProduction}<br></p>`
 return totalProduction
 }
+
 function incomeOverTime(sellingPrice,time,totals){
 let incomePerWeek=totals*sellingPrice*parseInt(time)
 let incomePerYear=totals*sellingPrice*364
